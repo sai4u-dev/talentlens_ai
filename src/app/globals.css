@@ -38,11 +38,9 @@ body {
   color: var(--foreground);
   font-family: var(--font-sans), Arial, Helvetica, sans-serif;
   overflow-x: hidden;
-  background-image: radial-gradient(
-    circle at 50% -20%,
-    rgba(59, 130, 246, 0.15),
-    rgba(0, 0, 0, 0) 40%
-  );
+  background-image: radial-gradient(circle at 50% -20%,
+      rgba(59, 130, 246, 0.15),
+      rgba(0, 0, 0, 0) 40%);
 }
 
 .glass-panel {
